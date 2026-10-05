@@ -27,7 +27,7 @@ load_dotenv()
 OPENAI_KEY = os.getenv("OPENAI_API_KEY")
 SECRET_KEY = os.getenv("SECRET_KEY", "CHANGE_THIS_TO_A_RANDOM_VALUE")
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///finance.db")
-PORT = int(os.getenv("PORT", 5000))
+PORT = int(os.getenv("PORT", 5001))
 DEBUG_MODE = os.getenv("FLASK_ENV") == "development"
 
 # ---------------------------------------------------------------------
